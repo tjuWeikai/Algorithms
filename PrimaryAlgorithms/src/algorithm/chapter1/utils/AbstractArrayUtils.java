@@ -22,7 +22,7 @@ public abstract class AbstractArrayUtils {
 	
 	abstract public int[] produceIntArray(int size, int seed);
 	
-	abstract public int[] produceStringArray(int size);
+	abstract public String[] produceStringArray(int size);
 
 }
   

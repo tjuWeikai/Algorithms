@@ -13,7 +13,7 @@ import java.util.Random;
 
 /**
  * ClassName:SortArrayUtils <br/>
- * Function: TODO Produce arrays of int and str. <br/>
+ * Function: TODO Produce random arrays of int and str. <br/>
  * Reason: TODO ADD REASON. <br/>
  * Date: 2018年12月12日 下午9:15:05 <br/>
  * 
@@ -22,7 +22,7 @@ import java.util.Random;
  * @since JDK 1.8
  * @see
  */
-public class SortArrayUtils extends AbstractArrayUtils {
+public class RandomArrayUtils extends AbstractArrayUtils {
 
 	private static final Integer DEFAULTSIZE = 10;
 	private static final Integer DEFAULTSEED = 5;
@@ -46,8 +46,8 @@ public class SortArrayUtils extends AbstractArrayUtils {
 	}
 
 	@Override
-	public int[] produceStringArray(int size) {
-		// TODO Auto-generated method stub
+	public String[] produceStringArray(int size) {
+		
 		return null;
 	}
 
