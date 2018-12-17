@@ -11,7 +11,7 @@ package algorithm.chapter1.sort;
 
 import java.util.Arrays;
 
-import algorithm.chapter1.utils.SortArrayUtils;
+import algorithm.chapter1.utils.RandomArrayUtils;
 
 /** 
  * ClassName:AllSortEntrance <br/> 
@@ -26,7 +26,11 @@ import algorithm.chapter1.utils.SortArrayUtils;
 public class AllSortEntrance {
 
 	public static void main(String[] args) {
-		SortArrayUtils utils = new SortArrayUtils();
+		
+		int[][] a = new int[2][2];
+		Arrays.stream(a).forEach(System.out::println);
+		
+		RandomArrayUtils utils = new RandomArrayUtils();
 		int[] array1 = utils.produceIntArray(10, 9);
 		int[] array2 = utils.produceIntArray(10, 7);
 		
