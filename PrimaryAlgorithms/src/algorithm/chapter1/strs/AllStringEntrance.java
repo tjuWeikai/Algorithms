@@ -24,6 +24,7 @@ public class AllStringEntrance {
 		String a = "CATCGA";
 		String b = "GTACCGTCA";
 		System.out.println(LCS.getLCS(a, b));
+		
 		System.out.println(StrReplace.transformAtoB(a, b));
 	}
 
